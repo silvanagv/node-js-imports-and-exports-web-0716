@@ -104,7 +104,7 @@ try {
   console.log(util.inspect(moduleToInspect, { colors: true }));
 } catch (error) {
   console.error(`Unable to inspect module ${moduleName}.`);
-  console.error(`Reason: ${error.message});
+  console.error(`Reason: ${error.message}`);
   exit(1);
 }
 ```
@@ -184,3 +184,5 @@ Check out the resources below for further reading.
 - Node.js modules: https://nodejs.org/api/modules.html
 - The `util` module: https://nodejs.org/api/util.html
 - Template literals: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/node-js-imports-and-exports'>Imports And Exports</a> on Learn.co and start learning to code for free.</p>
